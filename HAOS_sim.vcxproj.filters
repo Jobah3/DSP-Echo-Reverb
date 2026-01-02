@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="dec">
+      <UniqueIdentifier>{7bef0fb8-5569-497c-b7a0-9d88514acf63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc">
+      <UniqueIdentifier>{a01f3303-d2ac-46df-86b4-fb86cb0f18fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys">
+      <UniqueIdentifier>{6fc94547-0eb4-4af2-a3bc-bb4770e54d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dec\pcm">
+      <UniqueIdentifier>{84ae6604-e304-4811-a891-58cc4c4c3f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc\am">
+      <UniqueIdentifier>{fab2fa5e-f017-4897-9773-5875c8862ce5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys\bitripper">
+      <UniqueIdentifier>{ac24e68c-f478-4a6e-9054-2999dd8fea60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys\haos">
+      <UniqueIdentifier>{824fae4c-c180-4542-b2c3-991a527eb8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys\odt">
+      <UniqueIdentifier>{e9cf60fe-151d-4524-a6a3-0c37c923ce82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sys\wave">
+      <UniqueIdentifier>{f07f8c87-2a7c-4a5d-a7d3-50954eeabd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="proc\fx">
+      <UniqueIdentifier>{f4734a56-db09-4b78-b962-e4ed8b9ab7fd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dec\pcm\pcmdec_sim.cpp">
+      <Filter>dec\pcm</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\am\am_sim.cpp">
+      <Filter>proc\am</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\haos\haos_sim.cpp">
+      <Filter>sys\haos</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\haos\main.cpp">
+      <Filter>sys\haos</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\wave\wavefile.cpp">
+      <Filter>sys\wave</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\odt\odt_modules.cpp">
+      <Filter>sys\odt</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\haos\core.cpp">
+      <Filter>sys\haos</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fx\fx.cpp">
+      <Filter>proc\fx</Filter>
+    </ClCompile>
+    <ClCompile Include="proc\fx\fx_mif.cpp">
+      <Filter>proc\fx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dec\pcm\pcmdec_sim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\haos\haos.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\am\am_sim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\odt\odt_modules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\wave\wavefile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\haos\libc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\haos\haos_emulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\haos\haos_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\haos\haos_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sys\bitripper\bitripper_sim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\colormod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fx\fx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="proc\fx\fx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sys\bitripper\BitRipper_sim.lib">
+      <Filter>sys\bitripper</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
